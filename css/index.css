@@ -1,0 +1,22 @@
+body > ul {
+  margin-top: 40px;
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #212121;
+}
+body > ul > li {
+  padding: 10px 20px;
+  border: 3px solid #fafafa;
+  background-color: transparent;
+}
+body > ul > li:hover,
+body > ul > li:focus {
+  background-color: #fafafa9e;
+}
+body > ul > li > a {
+  color: #fafafa;
+  font-weight: bold;
+  text-decoration: none;
+}
