@@ -1,0 +1,75 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.controls {
+  max-width: 540px;
+  margin: auto;
+  margin-bottom: 16px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  background-color: #f6f6fe;
+}
+.controls .input {
+  width: 150px;
+  padding: 8px;
+  text-align: center;
+  font-weight: 400;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 8px;
+}
+.controls .btn-create,
+.controls .btn-destroy {
+  padding: 8px 32px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+.controls .btn-create {
+  background-color: #4e75ff;
+}
+.controls .btn-create:hover,
+.controls .btn-create:focus {
+  cursor: pointer;
+  background-color: #6c8cff;
+}
+.controls .btn-destroy {
+  background-color: #ff4e4e;
+}
+.controls .btn-destroy:hover,
+.controls .btn-destroy:focus {
+  cursor: pointer;
+  background-color: #ff7070;
+}
+.boxes {
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  background-color: #f6f6fe;
+}
