@@ -10,5 +10,5 @@ fornEl.addEventListener('submit', evt => {
     [email.name]: email.value,
     [password.name]: password.value,
   };
-  console.log('userCredential:', userCredential);
+  console.log(userCredential);
 });
